@@ -1871,7 +1871,7 @@ caller-path@^0.1.0:
   dependencies:
     callsites "^0.2.0"
 
-callsite@1.0.0:
+callsite@1.0.0, callsite@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/callsite/-/callsite-1.0.0.tgz#280398e5d664bd74038b6f0905153e6e8af1bc20"
   integrity sha1-KAOY5dZkvXQDi28JBRU+borxvCA=
@@ -2673,6 +2673,11 @@ domhandler@^2.3.0:
   integrity sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==
   dependencies:
     domelementtype "1"
+
+dompurify@2.2.7:
+  version "2.2.7"
+  resolved "https://r.cnpmjs.org/dompurify/download/dompurify-2.2.7.tgz#a5f055a2a471638680e779bd08fc334962d11fd8"
+  integrity sha1-pfBVoqRxY4aA53m9CPwzSWLRH9g=
 
 domutils@^1.5.1:
   version "1.7.0"
@@ -7027,6 +7032,13 @@ scratch-render-fonts@1.0.0-prerelease.20200507182347:
   dependencies:
     base64-loader "1.0.0"
 
+scratch-render-fonts@^1.0.0-prerelease.20210401210003:
+  version "1.0.0-prerelease.20210401210003"
+  resolved "https://r.cnpmjs.org/scratch-render-fonts/download/scratch-render-fonts-1.0.0-prerelease.20210401210003.tgz#1665433b19382c7e50de3f56cb36631bacc39b1c"
+  integrity sha1-FmVDOxk4LH5Q3j9WyzZjG6zDmxw=
+  dependencies:
+    base64-loader "1.0.0"
+
 scratch-render@latest:
   version "0.1.0-prerelease.20200622210757"
   resolved "https://registry.yarnpkg.com/scratch-render/-/scratch-render-0.1.0-prerelease.20200622210757.tgz#a0db06b6af4d3de268c4f7b4c27d30765e7e7054"
@@ -7064,7 +7076,7 @@ scratch-storage@^1.0.0, scratch-storage@^1.1.0:
     text-encoding "0.7.0"
     worker-loader "^2.0.0"
 
-scratch-svg-renderer@0.2.0-prerelease.20200610220938, scratch-svg-renderer@latest:
+scratch-svg-renderer@0.2.0-prerelease.20200610220938:
   version "0.2.0-prerelease.20200610220938"
   resolved "https://registry.yarnpkg.com/scratch-svg-renderer/-/scratch-svg-renderer-0.2.0-prerelease.20200610220938.tgz#d3c73209b4162d62028ddcca32f5caeb33450c76"
   integrity sha512-WWAzYVaCJqYbte9ZkKRHoGIskGS40Fz1J3YSgxGADDHNDDz+FLefMbqPfd7JU/YW0wu5viZWs2c7HTwfRCnlPg==
@@ -7073,6 +7085,17 @@ scratch-svg-renderer@0.2.0-prerelease.20200610220938, scratch-svg-renderer@lates
     base64-loader "1.0.0"
     minilog "3.1.0"
     scratch-render-fonts "1.0.0-prerelease.20200507182347"
+    transformation-matrix "1.15.0"
+
+scratch-svg-renderer@^0.2.0-prerelease.20210325225314:
+  version "0.2.0-prerelease.20210408171934"
+  resolved "https://r.cnpmjs.org/scratch-svg-renderer/download/scratch-svg-renderer-0.2.0-prerelease.20210408171934.tgz#9ab5f9bfb266d608edc1653b62a3f6ae019345e3"
+  integrity sha1-mrX5v7Jm1gjtwWU7YqP2rgGTReM=
+  dependencies:
+    base64-js "1.2.1"
+    base64-loader "1.0.0"
+    dompurify "2.2.7"
+    minilog "3.1.0"
     transformation-matrix "1.15.0"
 
 scratch-translate-extension-languages@0.0.20191118205314:
